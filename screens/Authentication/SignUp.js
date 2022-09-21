@@ -133,7 +133,7 @@ function isEnableSignUp(){
              }
              />
              {/* Sign up amd Sign In */}
-             <Textbutton
+             <TextButton
                 label = "Sign Up"
                 disabled={isEnableSignUp() ? false : true}
                 buttonContainerStyle ={{
