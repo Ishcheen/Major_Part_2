@@ -8,6 +8,7 @@ import {
 import {FONTS,SIZES,COLORS} from "../../constants";
 import {TextButton} from "../../components" ;
 import {AuthLayout} from "../";
+
 const Otp = () => {
     const[timer,setTimer] = React.useState(60)
 
